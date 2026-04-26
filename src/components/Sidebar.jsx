@@ -7,7 +7,8 @@ import Icon from "./Icon";
 import { GrDiamond } from "react-icons/gr";
 import { Button } from "./Button";
 import { useTranslation } from "react-i18next";
-export function Sidebar({isMenuOpen, setIsMenuOpen, isRTL, setIsRTL}){
+import { twMerge } from "tailwind-merge";
+export function Sidebar({isMenuOpen, setIsMenuOpen, isRTL, setIsRTL, hasDocumentation, className, ...props}){
        const {t} = useTranslation();
     
  let transformClass = isMenuOpen ? "translate-x-0" : "-translate-x-full";
@@ -23,9 +24,9 @@ function handleRTL(){
 
     return(
         
-        <aside className={`fixed ${isRTL ? "right-0": "left-0"} top-0 h-screen w-[250px] 
+        <aside {...props} className={twMerge(` w-[250px] rounded-lg shadow-lg
   transform  ${transformClass}  lg:translate-x-0 
-  transition-transform duration-300 bg-base p-3 z-50`}>
+  transition-transform duration-300 bg-base p-3 z-50 ${className}`)}>
     <div className="relative  h-full">
     <div className="flex gap-3 items-center pl-4">
 <PiGraph className="text-3xl text-secondary"/>
@@ -54,7 +55,7 @@ function handleRTL(){
 }
 </nav>
 
-<div className="flex flex-col gap-3 absolute z-20  bottom-1 w-full">
+<div className={`flex flex-col gap-3 absolute z-20  bottom-1 w-full ${!hasDocumentation && "hidden"}`}>
 <div className="relative h-[160px]  rounded-xl  mr-5">
     <img src="/src/assets/card-img.svg" alt="image" className="absolute top-0 object-cover h-full w-full   rounded-xl left-1/2 -translate-x-1/2" />
     <div className="flex flex-col gap-3 p-3 z-20 absolute w-full">

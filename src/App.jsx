@@ -37,7 +37,7 @@ useEffect(()=>{
 //   </div>
 
   <div className="flex  gap-3 max-w-[1920px] mx-auto">
- <Sidebar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} isRTL={isRTL} setIsRTL={setIsRTL}/>
+ <Sidebar className={`fixed ${isRTL ? "right-0": "left-0"} top-0 h-screen`} isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} isRTL={isRTL} setIsRTL={setIsRTL} hasDocumentation={true}/>
  <main className={`flex flex-wrap gap-3 lg:col-start-2 px-5 ${isRTL? "lg:mr-[250px]": "lg:ml-[250px]"}  h-full`}>
  <Header setIsMenuOpen={setIsMenuOpen} setIsRTL={setIsRTL}/>
 <Outlet/>

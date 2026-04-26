@@ -1,10 +1,11 @@
 import { createBrowserRouter } from "react-router";
 import App from "./App";
-import NotFound from "../../router/src/pages/not-found/NotFound";
+import NotFound from "./components/NotFound"
 import Dashboard from "./pages/dashboard/Dashboard";
 import SignIn from "./pages/sign-in/SignIn";
 import SignUp from "./pages/sign-up/SignUp";
 import Billing from "./pages/billing/Billing";
+import { VirtualReality } from "./pages/virtual-reality/VirtualReality";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -24,11 +25,7 @@ export const router = createBrowserRouter([
     
   },
 
-  { 
-    path: "virtual-reality",
-    element: <div>Virtual page</div>
-    
-  },
+
 
 
     { 
@@ -45,6 +42,11 @@ export const router = createBrowserRouter([
     path: "/sign-in",
     Component: SignIn
 
+    
+  },
+    { 
+    path: "/virtual-reality",
+    Component: VirtualReality
     
   },
 
