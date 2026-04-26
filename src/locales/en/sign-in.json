@@ -1,0 +1,14 @@
+{
+  "login": {
+    "title": "Welcome back",
+    "subtitle": "Enter your email and password to sign in",
+    "email_label": "Email",
+    "email_placeholder": "Email",
+    "password_label": "Password",
+    "password_placeholder": "Password",
+    "remember_me": "Remember me",
+    "submit_btn": "Sign in",
+    "no_account": "Don't have an account?",
+    "signup_link": "Sign up"
+  }
+}

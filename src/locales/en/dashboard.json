@@ -1,0 +1,35 @@
+{
+  "dashboard": {
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "tables": "Tables",
+      "billing": "Billing",
+      "virtual_reality": "Virtual Reality",
+      "rtl": "RTL",
+      "profile": "Profile",
+      "sign_in": "Sign In",
+      "sign_up": "Sign Up"
+    },
+    "header": {
+      "pages": "Pages",
+      "search_placeholder": "Type here...",
+      "online_builder": "Online Builder",
+      "sign_in_btn": "Sign in"
+    },
+    "main": {
+      "reviews": "Reviews",
+      "developer_stat": "More than 1,500,000 developers used our products and over 700,000 projects were created.",
+      "view_all_reviews": "View all reviews"
+    },
+    "footer": {
+      "copyright": "© 2026, made with",
+      "for_better_web": "for a better web.",
+      "links": {
+        "creative_tim": "Creative Tim",
+        "about_us": "About Us",
+        "blog": "Blog",
+        "license": "License"
+      }
+    }
+  }
+}

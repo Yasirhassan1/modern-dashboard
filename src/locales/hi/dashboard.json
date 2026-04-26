@@ -1,0 +1,35 @@
+{
+  "dashboard": {
+    "sidebar": {
+      "dashboard": "डैशबोर्ड",
+      "tables": "टेबल्स",
+      "billing": "बिलिंग",
+      "virtual_reality": "वर्चुअल रियलिटी",
+      "rtl": "RTL",
+      "profile": "प्रोफ़ाइल",
+      "sign_in": "साइन इन",
+      "sign_up": "साइन अप"
+    },
+    "header": {
+      "pages": "पेज",
+      "search_placeholder": "यहाँ टाइप करें...",
+      "online_builder": "ऑनलाइन बिल्डर",
+      "sign_in_btn": "साइन इन करें"
+    },
+    "main": {
+      "reviews": "समीक्षाएं",
+      "developer_stat": "1,500,000 से अधिक डेवलपर्स ने हमारे उत्पादों का उपयोग किया और 700,000 से अधिक प्रोजेक्ट बनाए गए।",
+      "view_all_reviews": "सभी समीक्षाएं देखें"
+    },
+    "footer": {
+      "copyright": "© 2026, द्वारा निर्मित",
+      "for_better_web": "बेहतर वेब के लिए।",
+      "links": {
+        "creative_tim": "क्रिएटिव टिम",
+        "about_us": "हमारे बारे में",
+        "blog": "ब्लॉग",
+        "license": "लाइसेंस"
+      }
+    }
+  }
+}

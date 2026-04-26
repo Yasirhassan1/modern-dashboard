@@ -1,0 +1,14 @@
+{
+  "login": {
+    "title": "वापसी पर आपका स्वागत है",
+    "subtitle": "साइन इन करने के लिए अपना ईमेल और पासवर्ड दर्ज करें",
+    "email_label": "ईमेल",
+    "email_placeholder": "ईमेल",
+    "password_label": "पासवर्ड",
+    "password_placeholder": "पासवर्ड",
+    "remember_me": "मुझे याद रखें",
+    "submit_btn": "साइन इन करें",
+    "no_account": "क्या आपका अकाउंट नहीं है?",
+    "signup_link": "साइन अप करें"
+  }
+}

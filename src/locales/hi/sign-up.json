@@ -1,0 +1,14 @@
+{
+  "register": {
+    "title": "इसके साथ रजिस्टर करें",
+    "or_divider": "या",
+    "name_placeholder": "नाम",
+    "email_placeholder": "ईमेल",
+    "password_placeholder": "पासवर्ड",
+    "agree_prefix": "मैं सहमत हूँ",
+    "terms_link": "नियम और शर्तों से",
+    "submit_btn": "साइन अप करें",
+    "already_have_account": "क्या आपका पहले से अकाउंट है?",
+    "signin_link": "साइन इन करें"
+  }
+}

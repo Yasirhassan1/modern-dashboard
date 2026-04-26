@@ -1,0 +1,14 @@
+{
+  "register": {
+    "title": "Register with",
+    "or_divider": "or",
+    "name_placeholder": "Name",
+    "email_placeholder": "Email",
+    "password_placeholder": "Password",
+    "agree_prefix": "I agree the",
+    "terms_link": "Terms and Conditions",
+    "submit_btn": "Sign up",
+    "already_have_account": "Already have an account?",
+    "signin_link": "Sign in"
+  }
+}

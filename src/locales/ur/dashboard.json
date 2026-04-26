@@ -1,0 +1,35 @@
+{
+  "dashboard": {
+    "sidebar": {
+      "dashboard": "ڈیش بورڈ",
+      "tables": "ٹیبلز",
+      "billing": "بلنگ",
+      "virtual_reality": "ورچوئل رئیلٹی",
+      "rtl": "دائیں سے بائیں",
+      "profile": "پروفائل",
+      "sign_in": "سائن ان",
+      "sign_up": "سائن اپ"
+    },
+    "header": {
+      "pages": "صفحات",
+      "search_placeholder": "یہاں تلاش کریں...",
+      "online_builder": "آن لائن بلڈر",
+      "sign_in_btn": "سائن ان کریں"
+    },
+    "main": {
+      "reviews": "تبصرے",
+      "developer_stat": "1,500,000 سے زیادہ ڈویلپرز نے ہماری مصنوعات استعمال کیں اور 700,000 سے زیادہ پروجیکٹس بنائے گئے۔",
+      "view_all_reviews": "تمام تبصرے دیکھیں"
+    },
+    "footer": {
+      "copyright": "© 2026، تخلیق کردہ بذریعہ",
+      "for_better_web": "بہتر ویب کے لیے۔",
+      "links": {
+        "creative_tim": "کریٹیو ٹم",
+        "about_us": "ہمارے بارے میں",
+        "blog": "بلاگ",
+        "license": "لائسنس"
+      }
+    }
+  }
+}
