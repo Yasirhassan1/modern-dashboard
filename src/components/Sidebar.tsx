@@ -6,6 +6,7 @@ import { GrDiamond } from "react-icons/gr";
 import { Button } from "./Button";
 import { useTranslation } from "react-i18next";
 import { twMerge } from "tailwind-merge";
+import cardImg from "../assets/card-img.svg"
 import { navData } from "../navData";
 
 interface SidebarProps extends React.ComponentProps<"aside"> {
@@ -65,7 +66,7 @@ export function Sidebar({ isMenuOpen, setIsMenuOpen, isRTL, setIsRTL, hasDocumen
 
                 <div className={`flex flex-col gap-3 absolute z-20  bottom-1 w-full ${!hasDocumentation && "hidden"}`}>
                     <div className="relative h-[160px]  rounded-xl  mr-5">
-                        <img src="/src/assets/card-img.svg" alt="image" className="absolute top-0 object-cover h-full w-full   rounded-xl left-1/2 -translate-x-1/2" />
+                        <img src={cardImg} alt="image" className="absolute top-0 object-cover h-full w-full   rounded-xl left-1/2 -translate-x-1/2" />
                         <div className="flex flex-col gap-3 p-3 z-20 absolute w-full">
                             <Icon RIcon={GrDiamond} />
                             <div className="flex flex-col ">
