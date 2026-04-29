@@ -44,8 +44,8 @@ export const Header = ({setIsMenuOpen, setIsRTL}: HeaderProps)=>{
         
       
             </div>
-            <div className={`right flex  gap-3 items-center flex-wrap`}>
-            <form action="" className="">
+            <div className={`right   gap-3 items-center flex-wrap flex`}>
+            <form action="" className="hidden sm:block">
                 <input type="text" className="border bg-tertiary text-text-secondary border-gray-200 p-2 rounded-md" placeholder={t("dashboard.header.search_placeholder")} />
             </form>
             <Button variant={"outlineBtn"}>{t("dashboard.header.online_builder")}</Button>
@@ -61,9 +61,10 @@ export const Header = ({setIsMenuOpen, setIsRTL}: HeaderProps)=>{
                     <option value="en">English</option>
                     <option value="ur">Urdu</option>
                 </select>
-            <IoMenu onClick={()=>{openCloseMenu()}} className="lg:hidden text-secondary text-xl sm:text-2xl"/>
-              
+           
+              <IoMenu onClick={()=>{openCloseMenu()}} className="lg:hidden text-secondary text-xl sm:text-2xl"/>
             </div>
+             
             
         </header>
     )

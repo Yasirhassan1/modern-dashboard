@@ -22,7 +22,7 @@ const Table = ({ tTitle, tHeads, tData }: TableProps) => {
     getCoreRowModel: getCoreRowModel(),
   });
   return (
-    <div className="transition-all bg-tertiary flex flex-col gap-2 ease duration-300 rounded-lg p-4  mt-2  shadow  justify-center overflow-x-auto">
+    <div className="transition-all bg-tertiary flex flex-col gap-2 ease duration-300 rounded-lg p-4  mt-2 min-w-[300px]  shadow  justify-center overflow-x-auto">
       <h2 className='text-lg font-semibold text-text-primary'>{tTitle}</h2>
       {/* Render the table */}
       <table className='border-collapse w-full min-w-[600px] overflow-x-scroll'>

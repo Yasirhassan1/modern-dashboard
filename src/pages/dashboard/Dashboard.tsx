@@ -3,7 +3,7 @@ import ProjectSection from './components/ProjectSection';
 import SoftUISection from './components/SoftUISection';
 import ChartSection from './components/ChartSection';
 import ProjectTable from '../../components/Table';
-import { getCoreRowModel, useReactTable } from '@tanstack/react-table';
+
 import xd from "../../assets/xd.svg"
 import limeLogo from "../../assets/limeLogo.svg"
 import { CompletionStatus } from '../../components/CompletionStatus';
