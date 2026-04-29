@@ -5,7 +5,7 @@ import Text from './Text';
 
 const Card = () => {
   return (
-     <div className="card rounded-lg w-[353px] relative h-fit">
+     <div className="card rounded-lg w-88.5 relative h-fit">
                    <img src={cardImg} alt="img" className='rounded-lg bg-cover w-full' />
                    <div className='p-3 h-[70%]   w-full flex flex-col gap-2 justify-between absolute z-40 bottom-1'>
                    <Text as='h3' variant='body-xl' className={"text-tertiary text-xl"}>4562     1122   4594   7852</Text>

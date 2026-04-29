@@ -8,21 +8,22 @@ import {
 
 
 
-interface ProjectTableProps{
-  tHeads:any[],
-  tData:any[]
+interface TableProps {
+  tTitle: string,
+  tHeads: any[],
+  tData: any[]
 }
 
 
-const ProjectTable = ({tHeads, tData}:ProjectTableProps) => {
+const Table = ({ tTitle, tHeads, tData }: TableProps) => {
   const table = useReactTable({
-    data: tData, 
-    columns: tHeads, 
-    getCoreRowModel: getCoreRowModel(), 
+    data: tData,
+    columns: tHeads,
+    getCoreRowModel: getCoreRowModel(),
   });
   return (
-   <div className="transition-all bg-tertiary flex flex-col gap-2 ease duration-300 rounded-lg p-4  mt-2  shadow  justify-center overflow-x-auto">
-  
+    <div className="transition-all bg-tertiary flex flex-col gap-2 ease duration-300 rounded-lg p-4  mt-2  shadow  justify-center overflow-x-auto">
+      <h2 className='text-lg font-semibold text-text-primary'>{tTitle}</h2>
       {/* Render the table */}
       <table className='border-collapse w-full min-w-[600px] overflow-x-scroll'>
         <thead className='text-left'>
@@ -30,14 +31,14 @@ const ProjectTable = ({tHeads, tData}:ProjectTableProps) => {
           {table.getHeaderGroups().map((headerGroup) => (
             <tr className='border-t   border-surface-gray text-text-secondary' key={headerGroup.id}>
               {headerGroup.headers.map((header) => (
-                <th className='p-2' colSpan={header.colSpan} key={header.id}>
+                <th className='p-2 text-[12px]' colSpan={header.colSpan} key={header.id}>
                   {/* Render header content or leave blank if it's a placeholder */}
                   {header.isPlaceholder
                     ? null
                     : flexRender(
-                        header.column.columnDef.header, // Header definition
-                        header.getContext() // Context for the header
-                      )}
+                      header.column.columnDef.header, // Header definition
+                      header.getContext() // Context for the header
+                    )}
                 </th>
               ))}
             </tr>
@@ -60,10 +61,10 @@ const ProjectTable = ({tHeads, tData}:ProjectTableProps) => {
           ))}
         </tbody>
       </table>
-   
-     
-      </div>
+
+
+    </div>
   );
 };
 
-export default memo(ProjectTable);
+export default memo(Table);

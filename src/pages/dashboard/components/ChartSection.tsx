@@ -47,7 +47,7 @@ export default function ChartSection(){
                 'rgba(249, 115, 22, 0.6)'
               ],
         borderColor: 'rgb(249, 115, 22)',
-        borderWidth: 2,
+        borderWidth: 1,
         barThickness: 20,
         borderRadius: 15,
        

@@ -1,6 +1,5 @@
 import Icon from "./Icon"
 import { NavLink } from "react-router";
-import { Link } from "react-router"
 import type { NavLinkProps } from "react-router";
 
 interface NavItemProps extends NavLinkProps{

@@ -1,16 +1,14 @@
 import Text from "./Text"
 import { Button } from "./Button"
 interface InvoiceCardProps {
-    title: string,
+    title?: string,
     invoiceData: {
         id: string,
         date: string,
         price: string,
         button: string
     }[]
-}
-
-export function InvoiceCard({title, invoiceData}: InvoiceCardProps){
+}export function InvoiceCard( {invoiceData}: InvoiceCardProps){
     return(
         <ul className="card flex flex-col gap-3 justify-between p-3 bg-tertiary rounded-lg flex-1 shadow">
             {
