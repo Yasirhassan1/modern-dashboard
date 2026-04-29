@@ -16,11 +16,60 @@
       "online_builder": "Online Builder",
       "sign_in_btn": "Sign in"
     },
-    "main": {
-      "reviews": "Reviews",
-      "developer_stat": "More than 1,500,000 developers used our products and over 700,000 projects were created.",
-      "view_all_reviews": "View all reviews"
+  "main": {
+    "statistics": {
+      "users_active": {
+        "value": 1600,
+        "trend": "+55%",
+        "title": "Active users"
+      },
+      "click_events": {
+        "value": 357,
+        "trend": "+124%",
+        "title": "Click events"
+      },
+      "purchases": {
+        "value": 2300,
+        "trend": "+15%",
+        "title": "Purchases"
+      },
+      "likes": {
+        "value": 940,
+        "trend": "+90%",
+        "title": "Likes"
+      }
     },
+    "reviews_panel": {
+      "ratings": {
+        "positive_review": {
+          "title": "Positive reviews",
+          "value": "80%"
+        },
+        "neutral_reviews": {
+          "title": "Neutral reviews",
+          "value": "20%"
+        },
+        "negative_reviews": {
+          "title": "Negative reviews",
+          "value": "10%"
+        }
+      },
+      "description": "More than 1,500,000 developers used Creative Tim's products and over 700,000 projects were created.",
+      "cta_button": "View all reviews"
+    },
+    "content_cards": {
+      "product_highlight": {
+        "subtitle": "Built by developers",
+        "title": "Soft UI Dashboard",
+        "description": "From colors, cards, typography to complex elements, you will find the full documentation."
+      },
+      "philosophy_card": {
+        "title": "Work with the rockets",
+        "description": "Wealth creation is an evolutionarily recent positive-sum game. It is all about who take the opportunity first."
+      }
+    }
+  },
+
     "footer": {
       "copyright": "© 2026, made with",
       "for_better_web": "for a better web.",

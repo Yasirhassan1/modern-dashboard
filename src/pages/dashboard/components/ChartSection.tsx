@@ -63,8 +63,8 @@ export default function ChartSection(){
   };
     return(
         <div className='flex justify-between gap-3 flex-wrap   h-fit'>
-            <Bar className='max-w-[450px] max-h-[250px] bg-tertiary rounded-lg p-2'  data={data2}/>
-            <Line className='max-w-[450px] max-h-[250px] bg-tertiary rounded-lg p-2'   data={data}/>
+            <Bar className='max-w-[450px] max-h-[250px]  bg-tertiary rounded-lg p-2'  data={data2}/>
+            <Line className='max-w-[450px] max-h-[250px] xl:w-full bg-tertiary rounded-lg p-2'   data={data}/>
         </div>
     )
 }

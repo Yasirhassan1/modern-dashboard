@@ -5,7 +5,7 @@ import bgPic from "../../../assets/pic.jpg"
 export default function SoftUISection(){
     return(
         <section className="flex gap-3 justify-between flex-wrap">
-            <div className="softCard flex justify-between gap-3 p-3 border border-gray-300 rounded-lg flex-wrap bg-tertiary flex-1">
+            <div className="softCard flex justify-between gap-3 p-3   rounded-lg flex-wrap bg-tertiary flex-1">
                 <div className="flex flex-col gap-3">
                 <Text as="strong" variant="body-sm">Built by developers</Text>
                 <Text as="h3" variant="body-lg">Soft UI Dashboard</Text>

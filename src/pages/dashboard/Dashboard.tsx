@@ -1,5 +1,4 @@
 import StatusSection from './components/StatusSection';
-import ProjectSection from './components/ProjectSection';
 import SoftUISection from './components/SoftUISection';
 import ChartSection from './components/ChartSection';
 import ProjectTable from '../../components/Table';
@@ -156,7 +155,6 @@ const Dashboard = () => {
   return (
    <div className='flex flex-col gap-4 flex-wrap w-full'>
  <StatusSection/>
- <ProjectSection/>
  <SoftUISection/>
  <ProjectTable tTitle="Projects" tHeads={columns} tData={data} />
  <ChartSection/>

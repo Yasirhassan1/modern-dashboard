@@ -10,7 +10,7 @@ import { Button } from '../../../components/Button';
 const StatusSection = () => {
   return (
   <section className='r1 flex justify-between gap-4 flex-wrap'>  
-   <div className='grid grid-cols-1 sm:grid-cols-[220px_220px] gap-4 h-fit' >
+   <div className='grid grid-cols-1 sm:grid-cols-[1fr_1fr] gap-4 h-fit flex-1' >
        {
         statusData.map((cur)=>(
             <StatusCard key={cur.id} {...cur} className={`${cur.cardColor}`}/>

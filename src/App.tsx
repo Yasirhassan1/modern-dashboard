@@ -13,7 +13,7 @@ function App() {
     if (!localStorage.getItem("email")) {
       globalThis.location.href = "/sign-up"
     }
-    document.documentElement.dir = isRTL ? "rtl" : "ltr";
+    document.documentElement.dir = isRTL ? "rtl" : "ltr"; 
 
 
     if (isRTL) {
