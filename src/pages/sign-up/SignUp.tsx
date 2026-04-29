@@ -18,7 +18,7 @@ export default function SignUp(){
               </div>
               <div className="row px-xl-5 px-sm-4 px-3 flex flex-col gap-3 items-center">
                 <div className="flex gap-4">
-                <div className=" ">
+                <div className="ejf ">
                   <a className="btn btn-outline-light ">
                     <svg width="24px" height="32px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink32">
                       <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
