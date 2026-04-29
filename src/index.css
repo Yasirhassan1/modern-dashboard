@@ -29,7 +29,7 @@ body{
 
 .light{
     --color-base: #f4f4f5;
-    --color-primary: #f97316;
+    --color-primary: rgb(249, 115, 22);
     --color-secondary: #27272A;
     --color-tertiary:#fff;
     --color-text-primary:#27272A;
