@@ -8,7 +8,7 @@ import memIcon from "../../../assets/member.svg"
 
 export const statusData = [
     {
-        id: "klfj3",
+        id: "users_active",
         icon: FaUser,
         activeUsers: 1600,
         title: "Users Active",
@@ -18,7 +18,7 @@ export const statusData = [
     },
 
      {
-         id: "dfkje",
+         id: "click_events",
         icon: TbPointerFilled,
         activeUsers: 357,
         title: "Click Events",
@@ -27,7 +27,7 @@ export const statusData = [
 
     },
      {
-         id: "dfjhef",
+         id: "purchases",
         icon: MdShoppingCart,
         activeUsers: 2300,
         title: "Purchases",
@@ -37,7 +37,7 @@ export const statusData = [
     },
 
       {
-         id: "ejrhjke",
+         id: "likes",
         icon: BiSolidLike,
         activeUsers: 940,
         title: "Likes",
@@ -49,20 +49,20 @@ export const statusData = [
 
 export const reviewData = [
     {
-        id: "dkjfh34",
+        id: "positive_review",
         title: "Positive Review",
         percentage: 80,
 
     },
 
      {
-         id: "dfen343",
+         id: "neutral_reviews",
         title: "Neutral Reviews",
         percentage: 20,
 
     },
     {
-         id: "3432f",
+         id: "negative_reviews",
         title: "Negative Reviews",
         percentage: 10,
 

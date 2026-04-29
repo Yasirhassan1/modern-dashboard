@@ -6,7 +6,7 @@ interface StatusCardProps {
   icon: React.ElementType,
   activeUsers: number,
   title: string,
-  percentage: number,
+  percentage: string,
   className?: string
 }
 
@@ -17,7 +17,7 @@ const StatusCard = ({icon, activeUsers, title, percentage, className}: StatusCar
         <div className="bottom flex flex-col gap-3">
             <div className="top w-full flex justify-between gap-2 items-center">
             <Text as='strong' variant='body-xl' className={"text-tertiary"}>{activeUsers}</Text>
-            <Text as='span' variant='body-sm' className={"text-tertiary"}>+{percentage}%</Text>
+            <Text as='span' variant='body-sm' className={"text-tertiary"}>{percentage}</Text>
             </div>
              <Text as='small' variant='body-sm' className={"text-tertiary"}>{title}</Text>
 

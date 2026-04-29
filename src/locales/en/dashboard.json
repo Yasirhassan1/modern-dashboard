@@ -40,18 +40,19 @@
       }
     },
     "reviews_panel": {
+      "title": "Reviews",
       "ratings": {
         "positive_review": {
           "title": "Positive reviews",
-          "value": "80%"
+          "value": 80
         },
         "neutral_reviews": {
           "title": "Neutral reviews",
-          "value": "20%"
+          "value": 20
         },
         "negative_reviews": {
           "title": "Negative reviews",
-          "value": "10%"
+          "value": 10
         }
       },
       "description": "More than 1,500,000 developers used Creative Tim's products and over 700,000 projects were created.",
@@ -61,13 +62,50 @@
       "product_highlight": {
         "subtitle": "Built by developers",
         "title": "Soft UI Dashboard",
-        "description": "From colors, cards, typography to complex elements, you will find the full documentation."
+        "description": "From colors, cards, typography to complex elements, you will find the full documentation.",
+        "read_more": "Read More"
       },
       "philosophy_card": {
         "title": "Work with the rockets",
         "description": "Wealth creation is an evolutionarily recent positive-sum game. It is all about who take the opportunity first."
       }
     }
+  },
+    "projects_dashboard": {
+    "title": "Projects",
+    "headers": ["Companies", "Members", "Budget", "Completion"],
+    "data": [
+      {
+        "project_name": "Soft UI XD Version",
+        "budget": "$2400",
+        "completion_percentage": 60
+      },
+      {
+        "project_name": "Add Progress Track",
+        "budget": "$3000",
+        "completion_percentage": 10
+      },
+      {
+        "project_name": "Fix Platform Errors",
+        "budget": "$3000",
+        "completion_percentage": 100
+      },
+      {
+        "project_name": "Launch our Mobile App",
+        "budget": "$20500",
+        "completion_percentage": 100
+      },
+      {
+        "project_name": "Add the New Pricing Page",
+        "budget": "$500",
+        "completion_percentage": 25
+      },
+      {
+        "project_name": "Redesign New Online Shop",
+        "budget": "$2000",
+        "completion_percentage": 40
+      }
+    ]
   },
 
     "footer": {

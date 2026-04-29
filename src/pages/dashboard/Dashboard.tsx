@@ -12,11 +12,12 @@ import spotifyLogo from "../../assets/spotifyLogo.svg"
 import digitalCurrencyLogo from "../../assets/digitalCurrencyLogo.svg"
 import inDesignLogo from "../../assets/inDesignLogo.svg"
 import Text from '../../components/Text';
-
+import { useTranslation } from 'react-i18next';
 
 
 
 const Dashboard = () => {
+  const {t} = useTranslation();
 
   const columns =[
       {
