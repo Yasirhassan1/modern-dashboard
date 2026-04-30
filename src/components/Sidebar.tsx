@@ -33,7 +33,7 @@ export function Sidebar({ isMenuOpen, setIsMenuOpen, isRTL, setIsRTL, hasDocumen
 
     return (
 
-        <aside {...props} className={twMerge(` w-[250px] rounded-lg shadow-lg
+        <aside {...props} className={twMerge(`w-62.5 rounded-lg shadow-lg
   transform  ${transformClass}  lg:translate-x-0 
   transition-transform duration-300 bg-base border-r border-surface-gray p-3 z-50  ${className}`)}>
             <div className="relative  h-full">
@@ -65,7 +65,7 @@ export function Sidebar({ isMenuOpen, setIsMenuOpen, isRTL, setIsRTL, hasDocumen
                 </nav>
 
                 <div className={`flex flex-col gap-3 absolute z-20  bottom-1 w-full ${!hasDocumentation && "hidden"}`}>
-                    <div className="relative h-[160px]  rounded-xl  mr-5">
+                    <div className="relative h-40  rounded-xl  mr-5">
                         <img src={cardImg} alt="image" className="absolute top-0 object-cover h-full w-full   rounded-xl left-1/2 -translate-x-1/2" />
                         <div className="flex flex-col gap-3 p-3 z-20 absolute w-full">
                             <Icon RIcon={GrDiamond} />

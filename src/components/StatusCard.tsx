@@ -13,7 +13,7 @@ interface StatusCardProps {
 const StatusCard = ({icon, activeUsers, title, percentage, className}: StatusCardProps) => {
   return (
     <div className={twMerge(`p-3 flex flex-col gap-3 rounded-lg h-fit ${className}`)}>
-        <Icon RIcon={icon} className={"rounded-full w-[40px] h-[40px]"}/>
+        <Icon RIcon={icon} className={"rounded-full w-10 h-10"}/>
         <div className="bottom flex flex-col gap-3">
             <div className="top w-full flex justify-between gap-2 items-center">
             <Text as='strong' variant='body-xl' className={"text-tertiary"}>{activeUsers}</Text>

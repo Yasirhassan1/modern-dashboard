@@ -20,7 +20,7 @@ const StatusSection = () => {
         ))
        }
    </div>
-   <div className='p-3 flex flex-col justify-between gap-3 shadow rounded-lg  bg-tertiary min-w-[300px] flex-1'>
+   <div className='p-3 flex flex-col justify-between gap-3 shadow rounded-lg  bg-tertiary min-w-75 flex-1'>
     <Text as='strong' variant='body-md'>{t(`dashboard.main.reviews_panel.title`)}</Text>
     <div className='flex flex-col gap-3'>
    {

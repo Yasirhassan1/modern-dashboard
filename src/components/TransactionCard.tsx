@@ -17,7 +17,7 @@ return(
             transactionData.map((cur)=>(
                 <li key={cur.id} className="flex gap-3 justify-between items-center p-3 bg-surface-gray rounded-lg">
                     <div className='flex gap-4'>
-                   <label className='w-[30px] h-[30px] rounded-full border border-gray-400 cursor-pointer'   htmlFor={`transaction-${cur.id}`}>
+                   <label className='w-7.5 h-7.5 rounded-full border border-gray-400 cursor-pointer'   htmlFor={`transaction-${cur.id}`}>
                     <input  type="checkbox" id={`transaction-${cur.id}`} className="w-9 h-9 hidden rounded-full border-amber-400" />
                    </label>
                     <div className="div flex flex-col gap-1">

@@ -12,7 +12,7 @@ export default function SignUp(){
     }
     return(
         <div className="h-screen flex items-center justify-center bg-base">
-        <div className="card shadow-lg w-fit  rounded-xl p-5 bg-tertiary flex flex-col gap-4 max-w-[400px] flex-1" >
+        <div className="card shadow-lg w-fit  rounded-xl p-5 bg-tertiary flex flex-col gap-4 max-w-100 flex-1" >
               <div className="card-header text-center">
                 <h5 className="font-semibold text-2xl text-text-secondary">Register with</h5>
               </div>
