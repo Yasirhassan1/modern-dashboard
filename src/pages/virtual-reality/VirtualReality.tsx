@@ -7,7 +7,7 @@ import {useDraggable} from '@dnd-kit/react';
 import patternImg from "../../assets/pattern.jpg"
 
 
-export function VirtualReality(){
+export default function VirtualReality(){
       const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false)
       const [isRTL, setIsRTL] = useState<boolean>(false)
        const {ref} = useDraggable({

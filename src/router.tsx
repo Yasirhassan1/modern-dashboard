@@ -1,16 +1,17 @@
 import { createBrowserRouter } from "react-router";
-import App from "./App";
-import NotFound from "./components/NotFound"
-import Dashboard from "./pages/dashboard/Dashboard";
-import SignIn from "./pages/sign-in/SignIn";
-import SignUp from "./pages/signUp/SignUp";
-import Billing from "./pages/billing/Billing";
-import { VirtualReality } from "./pages/virtual-reality/VirtualReality";
-import TablePage from "./pages/tables/TablePage";
+import { lazy } from "react";
+const  NotFound =  lazy(()=> import("./components/NotFound")) 
+const Dashboard =  lazy(()=> import("./pages/dashboard/Dashboard"));
+const SignIn =  lazy(()=> import("./pages/sign-in/SignIn"));
+const SignUp  =  lazy(()=> import("./pages/signUp/SignUp"));
+const Billing = lazy(()=> import("./pages/billing/Billing"));
+const  VirtualReality = lazy(()=> import("./pages/virtual-reality/VirtualReality"));
+const TablePage = lazy(()=> import("./pages/tables/TablePage"));
+const appComponent = lazy(()=> import("./App"))
 export const router = createBrowserRouter([
   {
     path: "/",
-    Component: App,
+    Component: appComponent,
     children: [
       {
         path: "dashboard",
