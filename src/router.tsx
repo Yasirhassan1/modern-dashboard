@@ -3,7 +3,7 @@ import App from "./App";
 import NotFound from "./components/NotFound"
 import Dashboard from "./pages/dashboard/Dashboard";
 import SignIn from "./pages/sign-in/SignIn";
-import SignUp from "./pages/sign-up/SignUp";
+import SignUp from "./pages/signUp/SignUp";
 import Billing from "./pages/billing/Billing";
 import { VirtualReality } from "./pages/virtual-reality/VirtualReality";
 import TablePage from "./pages/tables/TablePage";
