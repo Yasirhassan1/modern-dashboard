@@ -22,17 +22,15 @@ const Table = ({ tTitle, tHeads, tData }: TableProps) => {
     getCoreRowModel: getCoreRowModel(),
   });
   return (
-    <div className="transition-all bg-tertiary flex flex-col gap-2 ease duration-300 rounded-lg p-4  mt-2 min-w-75  shadow  justify-center overflow-x-auto">
+    <div className="transition-all w-fit bg-tertiary  md:w-full flex flex-col gap-2 ease duration-300 rounded-lg p-2 md:p-4  mt-2  shadow  justify-center ">
       <h2 className='text-lg font-semibold text-text-primary'>{tTitle}</h2>
-      {/* Render the table */}
-      <table className='border-collapse w-full min-w-150 overflow-x-scroll'>
+      <div className='overflow-x-auto max-w-[336bpx] md:max-w-full'>
+      <table className='border-collapse w-full min-w-max'>
         <thead className='text-left'>
-          {/* Render table headers */}
           {table.getHeaderGroups().map((headerGroup) => (
             <tr className='border-t   border-surface-gray text-text-secondary' key={headerGroup.id}>
               {headerGroup.headers.map((header) => (
                 <th className='p-2 text-[12px]' colSpan={header.colSpan} key={header.id}>
-                  {/* Render header content or leave blank if it's a placeholder */}
                   {header.isPlaceholder
                     ? null
                     : flexRender(
@@ -61,6 +59,8 @@ const Table = ({ tTitle, tHeads, tData }: TableProps) => {
           ))}
         </tbody>
       </table>
+      </div>
+    
 
 
     </div>

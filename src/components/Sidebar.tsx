@@ -34,15 +34,15 @@ export function Sidebar({ isMenuOpen, setIsMenuOpen, isRTL, setIsRTL, hasDocumen
     return (
 
         <aside {...props} className={twMerge(`w-62.5 rounded-lg shadow-lg
-  transform  ${transformClass}  lg:translate-x-0 
-  transition-transform duration-300 bg-base border-r border-surface-gray p-3 z-50  ${className}`)}>
+  transform  ${transformClass} lg:translate-x-0 
+  transition-transform duration-300  bg-base border-r border-surface-gray p-3 z-50  ${className}`)}>
             <div className="relative  h-full">
                 <div className="flex gap-3 items-center pl-4">
                     <PiGraph className="text-3xl text-secondary" />
                     <Text as="h2" className={"text-lg font-bold text-secondary"}>Soft-UI</Text>
                     <hr />
                 </div>
-                <nav className="flex flex-col gap-3 justify-between mt-5  h-[calc(100%-270px)]  overflow-y-auto p-2">
+                <nav className={`flex flex-col gap-3 justify-between mt-5 ${hasDocumentation ? "h-[calc(100%-270px)]" : "h-75"}  overflow-y-auto p-2`}>
                     {
                         navData.map((cur) => {
                             if (cur.type === "link") {

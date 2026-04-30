@@ -153,8 +153,10 @@ const Dashboard = () => {
   return (
    <div className='flex flex-col gap-4 flex-wrap w-full'>
  <StatusSection/>
- <SoftUISection/>
+ <SoftUISection/> 
+
  <ProjectTable tTitle="Projects" tHeads={columns} tData={data} />
+
  <ChartSection/>
    </div>
   );

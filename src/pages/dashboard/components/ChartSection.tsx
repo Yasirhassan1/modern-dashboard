@@ -55,7 +55,7 @@ export default function ChartSection(){
         borderColor: 'rgb(249, 115, 22)',
         borderWidth: 1,
         barThickness: 20,
-        borderRadius: 15,
+        borderRadius: 30,
        
         fill:false,
         tension: 0.5, 
@@ -109,14 +109,14 @@ export default function ChartSection(){
     
   ]
     return(
-        <div className='flex justify-between gap-5 flex-wrap   h-fit'>
-          <div className='bg-tertiary p-4 rounded-lg flex flex-col gap-3 min-w-75 max-w-125 flex-1'>
+        <div className='flex justify-between gap-5 flex-wrap  flex-col md:flex-row   h-fit'>
+          <div className='bg-tertiary p-4 rounded-lg flex flex-col gap-3 min-w-72 lg:max-w-125 flex-1'>
             <Bar className='flex-1 max-h-62.5 shadow  bg-tertiary rounded-lg p-2'  data={data2}/>
             <div className='flex flex-col'>
             <Text as='span' variant='body-sm' className={"text-text-secondary font-medium"}>Active Users</Text>
             <Text as='span' variant='body-sm' className={"text-text-secondary font-normal"}>(+23%) than last week</Text>
             </div>
-            <div className='flex gap-3 justify-between mt-2'>
+            <div className='flex gap-3 justify-between mt-2 flex-wrap'>
               {insightData.map((insight, index) => (
                 <InsightCard
                   key={index}
@@ -130,7 +130,7 @@ export default function ChartSection(){
             </div>
 
             </div>
-            <div className='flex-2 max-w-132.5 bg-tertiary rounded-lg p-4 min-w-75'>
+            <div className='flex-2 lg:max-w-132.5 bg-tertiary rounded-lg p-4 min-w-75 '>
               <Text as='strong' variant='body-md' className={"text-text-primary font-medium mb-2 block"}>Sales Overview</Text>
               <Text as='strong' variant='body-sm' className={"text-text-secondary font-medium mb-2 "}>4% more in 2021</Text>
               

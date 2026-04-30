@@ -144,19 +144,19 @@ const Billing = () => {
                         <div className="bottom flex gap-3 justify-between mt-auto pb-5">
                         <div className="masterCard rounded-lg flex-1 border justify-center p-5 flex gap-2 items-center border-gray-300">
                             <img width={30} src={logo} alt="kle" />
-                            <span>****</span>
-                            <span> ****</span>
-                            <span> ****</span>
-                            <span> 7852</span>
+                                <span className='text-text-secondary'>****</span>
+                                <span className='text-text-secondary'> ****</span>
+                            <span className='text-text-secondary'> ****</span>
+                            <span className='text-text-secondary'> 7852</span>
 
                         </div>
 
                          <div className="masterCard flex-1 rounded-lg justify-center border p-5 flex gap-2 items-center border-gray-300">
                             <img width={30} src={visaLogo} alt="kle" />
-                            <span>****</span>
-                            <span> ****</span>
-                            <span> ****</span>
-                            <span> 7852</span>
+                            <span className='text-text-secondary'>****</span>
+                            <span className='text-text-secondary'> ****</span>
+                            <span className='text-text-secondary'> **** </span>
+                            <span className='text-text-secondary'> 7852</span>
                         </div>
                         </div>
                 </div>

@@ -20,10 +20,10 @@ export function VirtualReality(){
     <div className="relative min-h-screen"> 
    
   
-  <div  className="sticky top-30 left-12 z-50 w-64">
+  <div  className="sticky top-[120px] left-12 z-50 w-64">
    
             <Sidebar ref={ref} isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} isRTL={isRTL} setIsRTL={setIsRTL} hasDocumentation={false}/>
-            </div>
+            </div>  
             <div className=""> 
     <img src={backImg} className="rounded-lg w-full absolute top-0" alt="background_img" />
   </div>
