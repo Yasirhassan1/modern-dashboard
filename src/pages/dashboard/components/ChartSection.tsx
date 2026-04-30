@@ -110,7 +110,7 @@ export default function ChartSection(){
   ]
     return(
         <div className='flex justify-between gap-5 flex-wrap   h-fit'>
-          <div className='bg-tertiary p-4 rounded-lg flex flex-col gap-3 min-w-75 max-w-12 flex-1'>
+          <div className='bg-tertiary p-4 rounded-lg flex flex-col gap-3 min-w-75 max-w-125 flex-1'>
             <Bar className='flex-1 max-h-62.5 shadow  bg-tertiary rounded-lg p-2'  data={data2}/>
             <div className='flex flex-col'>
             <Text as='span' variant='body-sm' className={"text-text-secondary font-medium"}>Active Users</Text>
