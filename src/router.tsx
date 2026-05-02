@@ -8,7 +8,17 @@ const Billing = lazy(()=> import("./pages/billing/Billing"));
 const  VirtualReality = lazy(()=> import("./pages/virtual-reality/VirtualReality"));
 const TablePage = lazy(()=> import("./pages/tables/TablePage"));
 const appComponent = lazy(()=> import("./App"))
+import { redirect } from "react-router";
 export const router = createBrowserRouter([
+    {
+    path: "/",
+    loader: () => {
+      if(!localStorage.getItem("email")){
+          return redirect("/sign-up")
+      }
+      return redirect("/dashboard")
+    }
+  },
   {
     path: "/",
     Component: appComponent,
