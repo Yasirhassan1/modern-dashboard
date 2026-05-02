@@ -20,7 +20,7 @@ export default function VirtualReality(){
     <div className="relative min-h-screen"> 
    
   
-  <div  className="sticky top-[120px] left-12 z-50 w-64">
+  <div  className="sticky top-30 left-12 z-50 w-64">
    
             <Sidebar ref={ref} isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} isRTL={isRTL} setIsRTL={setIsRTL} hasDocumentation={false}/>
             </div>  
@@ -69,7 +69,7 @@ Meeting</Text>
 
 </div>
 
-<div  className="relative w-[150px] hover:scale-105 transition-transform duration-300">
+<div  className="relative w-37.5 hover:scale-105 transition-transform duration-300">
   <img className="w-full h-full object-cover rounded-lg" src={patternImg} alt="Pattern" />
 
   <div className="absolute top-0 h-full w-full bg-orange-900 opacity-80 rounded-lg"></div>
@@ -77,9 +77,9 @@ Meeting</Text>
       <Text as="span" variant="body-lg" className={"text-tertiary"}>Some Kind Of Blues</Text>
   <Text as="span" variant="body-sm" className={"text-tertiary font-normal"}>Deftones</Text>
   <div className="flex gap-2 flex-wrap  mt-auto">
-  <div className="w-[20px] h-[20px] rounded-full border border-white bg-gray-300 opacity-45"></div>
-  <div className="w-[20px] h-[20px] rounded-full border border-white bg-gray-300 opacity-45"></div>
-  <div className="w-[20px] h-[20px] rounded-full border border-white bg-gray-300 opacity-45"></div>
+  <div className="w-5 h-5 rounded-full border border-white bg-gray-300 opacity-45"></div>
+  <div className="w-5 h-5 rounded-full border border-white bg-gray-300 opacity-45"></div>
+  <div className="w-5 h-5 rounded-full border border-white bg-gray-300 opacity-45"></div>
   </div>
   </div>
 

@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router";
 import { lazy } from "react";
 const  NotFound =  lazy(()=> import("./components/NotFound")) 
-const Dashboard =  lazy(()=> import("./pages/dashboard/Dashboard"));
+import Dashboard from  "./pages/dashboard/Dashboard";
 const SignIn =  lazy(()=> import("./pages/sign-in/SignIn"));
-const SignUp  =  lazy(()=> import("./pages/signUp/SignUp"));
+const SignUp  =  lazy(()=> import("./pages/sign-up/SignUp"));
 const Billing = lazy(()=> import("./pages/billing/Billing"));
 const  VirtualReality = lazy(()=> import("./pages/virtual-reality/VirtualReality"));
 const TablePage = lazy(()=> import("./pages/tables/TablePage"));
@@ -31,8 +31,6 @@ export const router = createBrowserRouter([
         element: <div>Profile</div>
 
       },
-
-
 
     ]
   },
